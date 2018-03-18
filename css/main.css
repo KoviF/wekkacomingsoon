@@ -1,0 +1,61 @@
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body.about, body.contact, body.faq, body.why-use-wekka {
+  background-image: url(./../images/wekka-pink-ink.jpeg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+[data-slides] {
+  background-image: url(./../images/wekka-blue-ink.jpeg); /* Default image. */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  transition: background-image 2s linear;
+}
+
+.bg-images {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /*height: 220px;*/
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  background: rgba(2, 51, 144, 0.4);
+  padding: 15px;
+  text-align: right;
+}
+
+.navbar-link {
+  position: relative;
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px 20px;
+}
+
+.navbar-link:hover {
+  color: #e70e7f;
+}
+
+#home-icon {
+  position: absolute;
+  top: 4px;
+}
+
+#wekka-home {
+  top: -10px;
+  position: absolute;
+  margin-left: 10px;
+}
